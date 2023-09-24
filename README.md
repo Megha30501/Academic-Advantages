@@ -2,7 +2,7 @@
 My project, Academic Advantage, is designed to help students by providing information about available Teaching Assistants (TA's). The Student Support Center at our university manages all the data and details of the TA's, and some of them even teach students at times. However, it may not be clear where to find this information.
 To address this, I created a React application where students can view information about the TA's, including their availability and location. This information will be useful for students who need instant Zoom help or who want to connect with TA's at the Student Support Center.
 
-1. What functionality is present?
+Functionality : 
 **Menu**: There is a menu with two options in my application; one of them is Home and the other is Add TA.
 ![image](https://user-images.githubusercontent.com/123281504/235841640-1e0c8436-733c-4cc1-b0df-8460c79d9d3c.png)
 
@@ -27,10 +27,3 @@ https://user-images.githubusercontent.com/123281504/234680279-101f8fb7-c881-4617
 **User Views**: There are three users in total. TA, Super Admin, and regular user. As a result, the application always runs in normal user mode. However, if you choose to log in as a Super User, you have more authority than a regular user, such as the ability to delete the TA's details. If you are logged in as a TA, you can set your status as "super busy" or "completely available." Therefore, when regular user sees this status, they can learn whether the TA is available or not.
 ![image](https://user-images.githubusercontent.com/123281504/235842011-12d89d8f-b294-4029-81b6-9cc97196b207.png)
 
-2.What is still missing (these should link to issues in the repo which describe more on the project)
-Have a Status Button: The Last issue in which I have to put the status button for TA Whichsays that they are busy helping, they are free or they currently away.
-
-3.What technologies/libraries were used
-
-4. How to download run the project
- 
