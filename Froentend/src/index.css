@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system,Arial, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #f2f2f2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+}
+.success{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.formDiv {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.formDiv h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.formDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formDiv label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formDiv input,
+.formDiv select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+.formDiv select {
+  height: 40px;
+}
+
+.formDiv select[multiple] {
+  height: auto;
+}
+
+.formDiv input:focus,
+.formDiv select:focus {
+  outline: none;
+  border: 1px solid #007bff;
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.3);
+}
+
+.formDiv button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.deletebutton button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.deletebutton button:hover {
+  background-color: #0069d9;
+}
+
+.formDiv button:hover {
+  background-color: #0069d9;
+}
+
+.courseItem {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.taStatus {
+  display: flex;
+  align-items: center;
+}
+
+.taStatus label {
+  margin-right: 10px;
+}
+
+.taStatus select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.courseCode {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.instructor {
+  font-style: italic;
+  text-underline: none;
+}
+.coursedetails{
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+.courseno{
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: #333;
+}
+.details{
+  font-style: italic;
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+.details span{
+  font-weight: bold;
+  color: #333;
+}
+.link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #0069d9;
+}
+.customLink {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.required {
+  color: red;
+}
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+}
+
+select:hover,
+select:focus {
+  border-color: #666;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+select option {
+  color: #333;
+  background-color: #fff;
+}
+
+select::-ms-expand {
+  display: none;
+}
