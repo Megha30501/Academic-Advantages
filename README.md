@@ -2,6 +2,8 @@
 My project, Academic Advantage, is designed to help students by providing information about available Teaching Assistants (TA's). The Student Support Center at our university manages all the data and details of the TA's, and some of them even teach students at times. However, it may not be clear where to find this information.
 To address this, I created a React application where students can view information about the TA's, including their availability and location. This information will be useful for students who need instant Zoom help or who want to connect with TA's at the Student Support Center.
 
+*Link to my Application:* https://academic-advantage.onrender.com/
+
 **Functionality:** 
 
 **Menu**: There is a menu with two options in my application; one of them is Home and the other is Add TA.
